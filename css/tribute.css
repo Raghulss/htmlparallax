@@ -1,0 +1,49 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+.img1, .img2, .img3{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.80;
+  background-size: cover;
+}
+.img1{
+    background-image: url('../images/tony.jpg');
+      min-height: 100%;
+}
+.img2{
+  background-image: url('../images/ironman1.jpg');
+    min-height: 100%;
+}
+.img3{
+  background-image: url('../images/avengers1.jpg');
+    min-height: 100%;
+}
+.plaintext1{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#ffffff;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+.bio{
+  padding: 50px 80px;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #000000;
+}
+.border{
+  background-color: #111;
+  padding: 20px;
+}
